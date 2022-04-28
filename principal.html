@@ -6,80 +6,45 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pagina de Bienvenida</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <h1>Bienvenidos</h1>
   <div>
-    <h2>Información acerca del grupo</h2>
-    <p>
-        Somos estudiantes de la Universidad de Lima que acualmente están llevando 
-        el curso de Programación Web con el profesor José Caballero
-    </p>
-    <figure>
-      <img src="images/logo-ulima.jpg" alt="Logo de la Ulima" 
-      title="Logo Universidad de Lima" width="300px"/>
-      <figcaption>
-        Logo de la Universidad de Lima
-      </figcaption>
-    </figure>
-    <figure>
-      <img src="images/campus-ulima.jpg" alt="Campus de la Universidad de Lima"
-      title="Campus Universidad de Lima" width="300px">
-      <figcaption>
-        Campus de la Universidad de Lima
-      </figcaption>
-    </figure>
-    <h2>Integrantes del grupo</h2>
-    <div>
-      <ul>
-        <li><a href="integrantes/Cesar.html">Cesar Paz </a></li>
-        <li><a href="integrantes/Juler.html">Juler Hermitaño</a></li>
-        <li><a href="integrantes/Sebastian.html">Sebastian Guevara</a></li>
-        <li><a href="integrantes/Mauricio.html">Mauricio Micali</a></li>
-        <li><a href="integrantes/Diego.html">Diego Pacheco</a></li>
-      </ul>
+        <h2>Información acerca del grupo</h2>
+        <p>
+            Somos estudiantes de la Universidad de Lima que acualmente están llevando 
+            el curso de Programación Web con el profesor José Caballero
+        </p>
+        <figure>
+            <img src="images/logo-ulima.jpg" alt="Logo de la Ulima" 
+            title="Logo Universidad de Lima" width="300px"/>
+            <figcaption>
+            Logo de la Universidad de Lima
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="images/campus-ulima.jpg" alt="Campus de la Universidad de Lima"
+            title="Campus Universidad de Lima" width="300px">
+            <figcaption>
+            Campus de la Universidad de Lima
+            </figcaption>
+        </figure>
+        <h2>Integrantes del grupo</h2>
+        <div>
+        <ul>
+            <li><a href="integrantes/Cesar.html">Cesar Paz </a></li>
+            <li><a href="integrantes/Juler.html">Juler Hermitaño</a></li>
+            <li><a href="integrantes/Sebastian.html">Sebastian Guevara</a></li>
+            <li><a href="integrantes/Mauricio.html">Mauricio Micali</a></li>
+            <li><a href="integrantes/Diego.html">Diego Pacheco</a></li>
+        </ul>
+        </div>
     </div>
-
-    <h2>Proyectos</h2>
-    <p>***********Queda pendiente***********</p>
-
-    <h2>Ingresa a nuestro team</h2>
-    <form action="">
-      <fieldset>
-        <legend>Formulario de datos personales</legend>
-        <div>
-          <label for="">Nombre: </label>
-          <input type="text" placeholder="Ingrese nombre completo" pattern="[a-zA-Z ]+" required>
-        </div>
-        <div>
-          <label for="">Descripción: </label>
-          <input type="text" placeholder="Ingrese una breve descripción de su persona" required>
-        </div>
-        <div>
-          <label for="">Género: </label>
-          <input type="radio" name="genero" id="hombre" value="hombre">
-          <label for="hombre">Hombre</label>
-          <input type="radio" name="genero" id="mujer" value="mujer">
-          <label for="mujer">Mujer</label>
-          <input type="radio" name="genero" id="noresp" value="noresp">
-          <label for="noresp">Otro</label>
-        </div>
-        <div>
-          <label for="">Edad: </label>
-          <select name="" id="">
-            <option value="menos_18">Menos de 18 años</option>
-            <option value="18_30">Entre 18-30 años</option>
-            <option value="mas_30">Más de 30 años</option>
-          </select>
-        </div>
-        <div>
-          <label for=""> CV: </label>
-          <input type="file">
-        </div>
-      </fieldset>
-      <input type="submit" value="Enviar">
-    </form>
-  </div>
+    <a href="/formulario.html">Formulario</a>
 </body>
 </html>

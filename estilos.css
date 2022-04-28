@@ -1,0 +1,21 @@
+html{
+    background: linear-gradient(indigo, black);
+    font-family: 'Aldrich', 'Ink Free', sans-serif;
+    color:white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+fieldset{
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px 3px 1px 3px;
+    border-color: white;
+    border-radius: 3px;
+}
+
+
+a{
+    color: yellow;
+}
